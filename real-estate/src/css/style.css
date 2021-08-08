@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ROBOTO", sans-serif;
+}
+
+.body2 {
+  background-color: #12151f;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1d1e29;
+  color: #faebd7;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  /* font-weight: bold; */
+  z-index: 3;
+}
+.menutop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+.menulogo {
+  display: flex;
+  align-items: center;
+}
+.logotext {
+  color: #797772;
+}
+
+#search {
+  width: 700px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #e2e2e2;
+  background-image: url(/src/images/mag.png);
+  background-repeat: no-repeat; /* 이미지 반복을 취소*/
+  background-position: 10px center; /* input영역 안에서 이미지를 원하는 위치를 정한다. 5px는 x축, center은 y축*/
+  padding-left: 40px; /*padding값이 없으면 html 설정한 placholder 와 겹친다. */
+  box-sizing: border-box; /*테두리 넘어 input 값이 넘어가지 않도록 설정 */
+  color: #12151f;
+}
+
+.Brandbtn,
+.Teambtn,
+.Developetechbtn,
+.Distributionbtn,
+.Biobtn {
+  background-color: #1d1e29;
+  border: none;
+  margin: 5px;
+}
+
+.Brandbtn:hover,
+.Teambtn:hover,
+.Developetechbtn:hover,
+.Distributionbtn:hover,
+.Biobtn:hover {
+  background-color: #1d1e29;
+  color: #347dff;
+}
+
+.enableEthereumButton {
+  background-color: #f77e61;
+  border-radius: 3px;
+  border-color: #12151f;
+  width: 100px;
+  height: 30px;
+}
+.enableEthereumButton:hover {
+  background-color: #ffc565;
+}
+
+.loginbtn {
+  background-color: #37a866;
+  border-radius: 3px;
+  border-color: #12151f;
+  width: 100px;
+  height: 30px;
+}
+
+.loginbtn:hover {
+  background-color: #6ce67f;
+}
+
+.menubottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.background {
+  position: absolute;
+  height: 50vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  position: relative;
+  /* background-color: #1e1f26; */
+  text-align: center;
+  padding: 0 2em;
+  z-index: 1;
+}
+
+.title-center {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5.3vw;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.5rem;
+  color: #347dff;
+  transition: all 0.3s ease;
+}
+
+.text-center {
+  font-size: 1.7vw;
+  letter-spacing: 0.3rem;
+  font-family: "ROBOTO", sans-serif;
+  font-weight: 300;
+  color: #faebd7;
+}
+
+.title-center:hover {
+  transform: translate3d(0, -10px, 22px);
+  /* color: #ff0266; */
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  /* 배경색상 그라데이션 효과 */
+  color: transparent;
+  /* 기존 글자색상 투명처리 */
+  -webkit-background-clip: text;
+  /* 배경색상의 범위를지정 -> 택스트 까지만 */
+}
+
+#list {
+  height: auto;
+  width: auto;
+  z-index: 1;
+}
+
+#main {
+  background-color: #f3f3f3;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.panel-body {
+  background-color: #f3f3f3;
+  color: black;
+  text-align: right;
+}
+.idhide {
+  color: #f3f3f3;
+}
+.typediv {
+  text-align: left;
+}
+.btn {
+  width: 100px;
+}
+.area {
+  color: #f3f3f3;
+}
+.id {
+  color: #f3f3f3;
+}
+.ethprice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
